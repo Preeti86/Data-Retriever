@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c99c33d2-0a6f-4d54-90a5-77bbdb7ac79c" name="Default Changelist" comment="" />
+    <list default="true" id="c99c33d2-0a6f-4d54-90a5-77bbdb7ac79c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/includes/admin/ckan_api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,6 +115,9 @@
       <replace>p</replace>
       <replace>ckan</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,12 +174,13 @@
       <path value="$PROJECT_DIR$/slugify/vendor/cocur/slugify" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="264" />
     <option name="y" value="102" />
     <option name="width" value="1177" />
     <option name="height" value="984" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -246,12 +252,12 @@
       <workItem from="1552732181699" duration="2989000" />
       <workItem from="1552745806925" duration="1951000" />
       <workItem from="1552773320169" duration="632000" />
-      <workItem from="1552899033493" duration="1453000" />
+      <workItem from="1552899033493" duration="2078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105142000" />
+    <option name="totallyTimeSpent" value="105767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="264" y="102" width="1177" height="984" extended-state="0" />
@@ -495,7 +501,7 @@
     <entry file="file://$PROJECT_DIR$/includes/admin/ckan_api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
