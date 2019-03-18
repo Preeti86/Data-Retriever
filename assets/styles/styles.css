@@ -1,0 +1,95 @@
+/*
+ *	Backend Styles
+ *
+*/
+
+.postbox .inside {
+    display: table
+}
+
+.postbox .ckan-articles > li {
+    float: left;
+    margin: 5px;
+    text-align: center;
+    height: 290px;
+    width: 120px;
+    overflow: hidden;
+}
+
+.postbox .ckan-articles li li {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.postbox .ckan-articles img {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+/*
+ *	Frontend Styles
+ *
+*/
+
+.ckan-articles.frontend {
+    margin-left: 0px;
+}
+
+.ckan-articles.frontend a,
+.widget-area .widget .ckan-articles.frontend a
+.ckan-articles.frontend p,
+.widget-area .widget .ckan-articles.frontend p {
+    color: #999;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: .25px;
+    text-decoration: none;
+}
+
+.ckan-articles li,
+.widget-area .ckan-articles li {
+    /*float: left;*/
+    /*	width: 100px;*/
+    margin: 0 5px 5px;
+    padding: 10px 0 0;
+    list-style: none;
+}
+
+.ckan-articles .ckan-articles img {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 0 0;
+}
+
+.ckan-articles .ckan-articles-info {
+    background: #3d444b;
+    border-radius: 4px;
+    color: #ededed;
+    padding: 14px;
+}
+
+
+.ckan-articles-info p.ckan-articles-name,
+.widget-area .widget .ckan-articles-info p.ckan-articles-name {
+    font-size: 16px;
+    line-height: 16px;
+    margin:  8px 0;
+}
+
+.ckan-articles-info .ckan-articles-name a,
+.widget-area .widget .ckan-articles-info .ckan-articles-name a {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+}
+
+.ckan-articles-info .ckan-articles-name a:hover,
+.widget-area .widget .ckan-articles-info .ckan-articles-name a:hover {
+    color: #fff
+}
+
+.ckan-articles-info p.ckan-articles-project,
+.widget-area .widget .ckan-articles-info p.ckan-articles-project {
+    color: #edeff0;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0;
+}
