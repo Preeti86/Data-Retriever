@@ -12,7 +12,7 @@
 
                 <div class="meta-box-sortables ui-sortable">
 
-                    <?php if (!isset($ckan_search) || $ckan_search == ''): ?>
+                    <?php if (!isset($data_search) || $data_search == ''): ?>
 
                         <div class="postbox">
 
@@ -25,22 +25,22 @@
                             <div class="inside">
                                 <form method="post" action="">
 
-                                    <input type="hidden" name="ckan_form_submitted" value="Y">
+                                    <input type="hidden" name="data_form_submitted" value="Y">
 
                                     <table class="form-table">
                                         <tr valign="top">
                                             <td scope="row"><label for="tablecell">Search String</label></td>
-                                            <td><input name="ckan_search" id="ckan_search" type="text" value=""
+                                            <td><input name="data_search" id="data_search" type="text" value=""
                                                        class="regular-text"/></td>
                                         </tr>
                                         <tr valign="top">
                                             <td scope="row"><label for="tablecell">API Key</label></td>
-                                            <td><input name="ckan_apikey" id="ckan_apikey" type="text" value=""
+                                            <td><input name="data_apikey" id="data_apikey" type="text" value=""
                                                        class="regular-text"/></td>
                                         </tr>
                                     </table>
                                     <p>
-                                        <input class="button-primary" type="submit" name="ckan_form_submit" value="Save"/>
+                                        <input class="button-primary" type="submit" name="data_form_submit" value="Save"/>
                                     </p>
                                 </form>
                             </div>
@@ -60,26 +60,26 @@
                             <div class="inside">
                                 <p>Below are the 10 articles</p>
 
-                                <ul class="ckan-articles">
+                                <ul class="data-articles">
 
                                     <?php for ($i = 0; $i < 5; $i++): ?>
                                         <li>
                                             <ul>
-                                                <?php if (count($ckan_results->{'response'}->{'docs'}[$i]->{'multimedia'}) > 0): ?>
+                                                <?php if (count($data_results->{'response'}->{'docs'}[$i]->{'multimedia'}) > 0): ?>
                                                     <li>
                                                         <img width="120px"
-                                                             src="<?php echo 'http://www.nytimes.com/' . $ckan_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'} ?>">
+                                                             src="<?php echo 'http://www.nytimes.com/' . $data_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'} ?>">
                                                     </li>
                                                 <?php endif; ?>
 
-                                                <li class="ckan-articles-name">
-                                                    <a href="<?php echo $ckan_results->{'response'}->{'docs'}[$i]->{'web_url'}; ?>">
-                                                        <?php echo $ckan_results->{'response'}->{'docs'}[$i]->{'headline'}->{'main'}; ?>
+                                                <li class="data-articles-name">
+                                                    <a href="<?php echo $data_results->{'response'}->{'docs'}[$i]->{'web_url'}; ?>">
+                                                        <?php echo $data_results->{'response'}->{'docs'}[$i]->{'headline'}->{'main'}; ?>
                                                     </a>
                                                 </li>
 
-                                                <li class="ckan-articles-paragraph">
-                                                    <p><?php echo $ckan_results->{'response'}->{'docs'}[$i]->{'lead_paragraph'}; ?></p>
+                                                <li class="data-articles-paragraph">
+                                                    <p><?php echo $data_results->{'response'}->{'docs'}[$i]->{'lead_paragraph'}; ?></p>
                                                 </li>
 
                                             </ul>
@@ -99,20 +99,20 @@
 
                         <div class="inside">
                             <p>
-                                <?php echo $ckan_results->{'response'}->{'docs'}[0]->{'web_url'}; ?>
+                                <?php echo $data_results->{'response'}->{'docs'}[0]->{'web_url'}; ?>
                             </p>
                             <p>
-                                <?php echo $ckan_results->{'response'}->{'docs'}[0]->{'headline'}->{'main'}; ?>
+                                <?php echo $data_results->{'response'}->{'docs'}[0]->{'headline'}->{'main'}; ?>
                             </p>
                             <p>
-                                <?php echo $ckan_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'}; ?>
+                                <?php echo $data_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'}; ?>
                             </p>
                             <p>
-                                <?php echo $ckan_results->{'response'}->{'docs'}[0]->{'lead_paragraph'}; ?>
+                                <?php echo $data_results->{'response'}->{'docs'}[0]->{'lead_paragraph'}; ?>
                             </p>
 
 
-                            <pre><code><?php var_dump($ckan_results); ?></code></pre>
+                            <pre><code><?php var_dump($data_results); ?></code></pre>
                         </div>
                         <!-- .inside -->
 
@@ -127,7 +127,7 @@
             <div id="postbox-container-1" class="postbox-container">
 
                 <div class="meta-box-sortables">
-                    <?php if (isset($ckan_search) && $ckan_search != '') ; ?>
+                    <?php if (isset($data_search) && $data_search != '') ; ?>
                     <div class="postbox">
                         <div class="handlediv" title="Click to toggle"><br></div>
 
@@ -137,19 +137,19 @@
 
 
                             <form method="post" action="">
-                                <input type="hidden" name="ckan_form_submitted" value="Y">
+                                <input type="hidden" name="data_form_submitted" value="Y">
                                 <p>
-                                    <input name="ckan_search" type="text" id="ckan_search" value="<?php echo $ckan_search; ?>"
+                                    <input name="data_search" type="text" id="data_search" value="<?php echo $data_search; ?>"
                                            class="all-options"/>
 
                                 </p>
                                 <p>
-                                    <input name="ckan_apikey" type="text" id="ckan_apikey" value="<?php echo $ckan_apikey; ?>"
+                                    <input name="data_apikey" type="text" id="data_apikey" value="<?php echo $data_apikey; ?>"
                                            class="all-options"/>
 
                                 </p>
 
-                                <input class="button-primary" type="submit" name="ckan_form_submit" value="update">
+                                <input class="button-primary" type="submit" name="data_form_submit" value="update">
                             </form>
                         </div>
                     </div>

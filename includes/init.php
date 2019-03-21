@@ -2,9 +2,9 @@
 
 function dataset_init(){
     $labels = array(
-        'name'                          => _x('Datasets', 'post type general name', 'dataset'),
+        'name'                          => _x('Data retriever', 'post type general name', 'dataset'),
         'singular_name'                 => _x('Datasets', 'post type singular name', 'dataset'),
-        'menu_name'                     => _x('Datasets', 'admin menu', 'dataset'),
+        'menu_name'                     => _x('Data retriever', 'admin menu', 'dataset'),
         'submenu_name'                  => _X('Datasets', 'dataset', 'Settings', 'admin menu', 'dataset'),
         'name_admin_bar'                => _x('Datasets', 'add new on admin bar', 'dataset'),
         'add_new'                       => _x('Add New', 'dataset', 'dataset'),
@@ -52,38 +52,7 @@ function dataset_init(){
         'supports'                      => array('title', 'editor', 'thumbnail', 'excerpt', 'trackbacks', 'custom-fields','revisions', 'page-attributes', 'comments', 'categories'),
         'taxonomies'                    => array('datasets','organisations','groups','category','url'),
 
-        register_taxonomy(
-            'organisations',
-            'post',
-            array(
-                'label' => __( 'Organisations' ),
-                'hierarchical' => false,
-                //'labels' => $labels,
-                'public' => true,
-                'show_in_nav_menus' => false,
-                'show_tagcloud' => false,
-                'show_admin_column' => true,
-                'rewrite' => array(
-                    'slug' => 'organisations'
-                )
-            )
-        )
-    );
-    register_taxonomy(
-        'groups',
-        'post',
-        array(
-            'label' => __( 'Groups' ),
-            'hierarchical' => false,
-            //'labels' => $labels,
-            'public' => true,
-            'show_in_nav_menus' => false,
-            'show_tagcloud' => false,
-            'show_admin_column' => true,
-            'rewrite' => array(
-                'slug' => 'groups'
-            )
-        )
+
     );
 
     register_post_type('dataset', $args);

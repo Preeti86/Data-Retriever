@@ -6,12 +6,12 @@ function datasets_settings_menu(){
         'Data retriever',
         'manage_options',
         'styles-post',
-        'ckan_post_options_page'
+        'data_post_options_page'
 
     );
 }
 
-function ckan_post_options_page()
+function data_post_options_page()
 {
 
     if (!current_user_can('manage_options')) {
@@ -21,34 +21,34 @@ function ckan_post_options_page()
     global $plugin_url;
     global $options;
 
-    if (isset($_POST['ckan_form_submitted'])) {
-        $hidden_field = esc_html($_POST['ckan_form_submitted']);
+    if (isset($_POST['data_form_submitted'])) {
+        $hidden_field = esc_html($_POST['data_form_submitted']);
 
         if ($hidden_field == 'Y') {
-            $ckan_search = esc_html($_POST['ckan_search']);
-            $ckan_apikey = esc_html($_POST['ckan_apikey']);
+            $data_search = esc_html($_POST['data_search']);
+            $data_apikey = esc_html($_POST['data_apikey']);
 
 
-            $ckan_results = ckan_dataset_get_results($ckan_search, $ckan_apikey);
+            $data_results = dataset_get_results($data_search, $data_apikey);
 
-            $options['ckan_search'] = $ckan_search;
-            $options['ckan_apikey'] = $ckan_apikey;
+            $options['data_search'] = $data_search;
+            $options['data_apikey'] = $data_apikey;
             $options['last_updated'] = time();
 
-            $options['ckan_results'] = $ckan_results;
+            $options['data_results'] = $data_results;
 
-            update_option('ckan_articles', $options);
+            update_option('data_articles', $options);
 
         }
 
     }
 
-    $options = get_option('ckan_articles');
+    $options = get_option('data_articles');
 
     if ($options != '') {
-        $ckan_search = $options['ckan_search'];
-        $ckan_apikey = $options['ckan_apikey'];
-        $ckan_results = $options ['ckan_results'];
+        $data_search = $options['data_search'];
+        $data_apikey = $options['data_apikey'];
+        $data_results = $options ['data_results'];
 
     }
     require ('options-page-wrapper.php');
@@ -56,7 +56,7 @@ function ckan_post_options_page()
 
 
 
-function ckan_articles_shortcode($atts, $content = null){
+function data_articles_shortcode($atts, $content = null){
 
     global $post;
 
@@ -68,8 +68,8 @@ function ckan_articles_shortcode($atts, $content = null){
     if ($display_image == 'on') $display_image = 1;
     if ($display_image == 'off') $display_image = 0;
 
-    $options = get_option('ckan_articles');
-    $ckan_results = $options['ckan_results'];
+    $options = get_option('data_articles');
+    $data_results = $options['data_results'];
 
     ob_start();
 
@@ -83,23 +83,23 @@ function ckan_articles_shortcode($atts, $content = null){
 
 
 
-function ckan_articles_backend_styles(){
+function data_articles_backend_styles(){
 
-    wp_enqueue_style( 'ckan_articles_backend_css', plugins_url( 'assets/styles/styles.css' ) );
-
-}
-
-
-function ckan_articles_frontend_styles(){
-
-    wp_enqueue_style( 'ckan_articles_frontend_css', plugins_url( 'assets/styles/styles.css' ) );
-    wp_enqueue_script('ckan_articles_frontend_js', plugins_url( 'assets/scripts/ckan-articles.js'), array('jquery'), '', true );
+    wp_enqueue_style( 'data_articles_backend_css', plugins_url( 'assets/styles/styles.css' ) );
 
 }
 
 
-function ckan_articles_refresh_results(){
-    $options = get_option('ckan_articles');
+function data_articles_frontend_styles(){
+
+    wp_enqueue_style( 'data_articles_frontend_css', plugins_url( 'assets/styles/styles.css' ) );
+    wp_enqueue_script('data_articles_frontend_js', plugins_url( 'assets/scripts/data-articles.js'), array('jquery'), '', true );
+
+}
+
+
+function data_articles_refresh_results(){
+    $options = get_option('data_articles');
     $last_updated = $options['last_updated'];
 
     $current_time = time();
@@ -107,20 +107,20 @@ function ckan_articles_refresh_results(){
 
 
     if ($update_difference > 86400) {
-        $ckan_search = $options['ckan_search'];
-        $ckan_apikey = $options['ckan_apikey'];
+        $data_search = $options['data_search'];
+        $data_apikey = $options['data_apikey'];
 
 
-        $options['ckan_results'] = ckan_articles_refresh_results($ckan_search, $ckan_apikey);
+        $options['data_results'] = data_articles_refresh_results($data_search, $data_apikey);
         $options['last_updated'] = time();
 
-        update_option('ckan_articles', $options);
+        update_option('data_articles', $options);
 
     }
 
 }
 
-function ckan_articles_enable_front_ajax(){
+function data_articles_enable_front_ajax(){
      ?>
 
     <script>

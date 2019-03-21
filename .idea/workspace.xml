@@ -3,6 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="c99c33d2-0a6f-4d54-90a5-77bbdb7ac79c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/extras/creator-template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-options.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/rateit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rateit/star.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pg_dummy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/ckan_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/Data_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/ckan_widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/Data_widgets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/front-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/front-end.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/admin/settings_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/settings_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/admin/settings_menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="390">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -41,17 +59,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <element signature="e#6#209#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/admin/ckan_widgets.php">
+        <entry file="file://$PROJECT_DIR$/includes/admin/widgets-fields.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/front/enqueue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/activate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/admin/Data_api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -66,28 +123,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/front/enqueue.php">
+        <entry file="file://$PROJECT_DIR$/includes/admin/options-page-wrapper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/admin/ckan_api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="1039">
+              <caret line="151" column="86" selection-start-line="151" selection-start-column="86" selection-end-line="151" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/init.php">
+        <entry file="file://$PROJECT_DIR$/includes/admin/front-end.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="185">
+              <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -108,12 +156,13 @@
       <find>title</find>
       <find>r</find>
       <find>pgnyt</find>
+      <find>ckan</find>
     </findStrings>
     <replaceStrings>
-      <replace>data</replace>
       <replace>articles</replace>
       <replace>p</replace>
       <replace>ckan</replace>
+      <replace>data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,12 +192,10 @@
         <option value="$PROJECT_DIR$/assets/styles/bootstrap.css" />
         <option value="$PROJECT_DIR$/process/filter-content.php" />
         <option value="$PROJECT_DIR$/includes/admin/create-metaboxes.php" />
-        <option value="$PROJECT_DIR$/includes/init.php" />
         <option value="$PROJECT_DIR$/assets/styles/demo.css" />
         <option value="$PROJECT_DIR$/assets/styles/styles.css" />
         <option value="$PROJECT_DIR$/assets/scripts/options.js" />
         <option value="$PROJECT_DIR$/assets/scripts/data-scripts.js" />
-        <option value="$PROJECT_DIR$/includes/admin/front-end.php" />
         <option value="$PROJECT_DIR$/includes/admin/ckan_widgets.php" />
         <option value="$PROJECT_DIR$/includes/admin/ckan_bak.php" />
         <option value="$PROJECT_DIR$/includes/shortcodes/creator.php" />
@@ -157,14 +204,18 @@
         <option value="$PROJECT_DIR$/assets/scripts/ckan-articles.js" />
         <option value="$PROJECT_DIR$/../../../wp-config.php" />
         <option value="$PROJECT_DIR$/includes/activate.php" />
-        <option value="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" />
         <option value="$PROJECT_DIR$/includes/front/enqueue.php" />
         <option value="$PROJECT_DIR$/includes/admin/columns.php" />
-        <option value="$PROJECT_DIR$/includes/admin/ckan_api.php" />
         <option value="$PROJECT_DIR$/includes/admin/enqueue.php" />
-        <option value="$PROJECT_DIR$/includes/admin/settings_menu.php" />
         <option value="$PROJECT_DIR$/includes/admin/init.php" />
+        <option value="$PROJECT_DIR$/includes/admin/ckan_api.php" />
+        <option value="$PROJECT_DIR$/includes/init.php" />
+        <option value="$PROJECT_DIR$/includes/admin/Data_widgets.php" />
+        <option value="$PROJECT_DIR$/includes/admin/front-end.php" />
+        <option value="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" />
+        <option value="$PROJECT_DIR$/includes/admin/Data_api.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/admin/settings_menu.php" />
       </list>
     </option>
   </component>
@@ -174,9 +225,9 @@
       <path value="$PROJECT_DIR$/slugify/vendor/cocur/slugify" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="565" />
+    <option name="y" value="126" />
     <option name="width" value="1177" />
     <option name="height" value="984" />
   </component>
@@ -186,14 +237,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Data-retriever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-retriever" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ckan-data-retriever" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -253,16 +314,17 @@
       <workItem from="1552745806925" duration="1951000" />
       <workItem from="1552773320169" duration="632000" />
       <workItem from="1552899033493" duration="2078000" />
+      <workItem from="1553161009014" duration="3580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105767000" />
+    <option name="totallyTimeSpent" value="109347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="102" width="1177" height="984" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26436782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,7 +345,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.016583748" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25814977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -382,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/activate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/ckan-articles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -420,10 +475,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/admin/columns.php" />
-    <entry file="file://$PROJECT_DIR$/includes/admin/widgets-fields.php">
+    <entry file="file://$PROJECT_DIR$/includes/admin/create-metaboxes.php" />
+    <entry file="file://$PROJECT_DIR$/process/dataset-template.php" />
+    <entry file="file://$PROJECT_DIR$/process/filter-content.php" />
+    <entry file="file://$PROJECT_DIR$/process/rate-dataset.php" />
+    <entry file="file://$PROJECT_DIR$/process/save-post.php" />
+    <entry file="file://$PROJECT_DIR$/images/pg_dummy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/admin/Data_widgets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="465">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -439,41 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/admin/front-end.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/admin/options-page-wrapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/admin/create-metaboxes.php" />
-    <entry file="file://$PROJECT_DIR$/process/dataset-template.php" />
-    <entry file="file://$PROJECT_DIR$/process/filter-content.php" />
-    <entry file="file://$PROJECT_DIR$/process/rate-dataset.php" />
-    <entry file="file://$PROJECT_DIR$/process/save-post.php" />
-    <entry file="file://$PROJECT_DIR$/includes/admin/settings_menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/admin/ckan_widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="185">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -484,24 +514,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/front/enqueue.php">
+    <entry file="file://$PROJECT_DIR$/includes/admin/options-page-wrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="1039">
+          <caret line="151" column="86" selection-start-line="151" selection-start-column="86" selection-end-line="151" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/admin/widgets-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/activate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="245">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/admin/ckan_api.php">
+    <entry file="file://$PROJECT_DIR$/includes/admin/Data_api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#209#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/admin/settings_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/front/enqueue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>

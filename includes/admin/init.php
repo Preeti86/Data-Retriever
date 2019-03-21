@@ -4,7 +4,7 @@ function dataset_admin_init() {
     //include('create-metaboxes.php');
     include ( 'dataset-options.php' );
     include ( 'enqueue.php');
-    include('ckan_api.php');
+    include('Data_api.php');
     //include ('columns.php');
 
 

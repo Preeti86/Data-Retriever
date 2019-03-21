@@ -1,6 +1,6 @@
 <?php
 
-class Ckan_Articles_Widget extends WP_Widget {
+class data_Articles_Widget extends WP_Widget {
 
 /**
 * Constructs the new widget.
@@ -28,8 +28,8 @@ $title = apply_filters('widget_title', $instance['title'] );
 $num_articles = $instance['num_articles'];
 $display_image = $instance['display_image'];
 
-$options = get_option('ckan_articles');
-$ckan_results = $options['ckan_results'];
+$options = get_option('data_articles');
+$data_results = $options['data_results'];
 
 require ('front-end.php');
 }
@@ -65,21 +65,21 @@ $title = esc_attr($instance['title']);
 $display_image = esc_attr($instance['display_image']);
 $num_articles = esc_attr($instance['num_articles']);
 
-$options = get_option('ckan_articles');
-$ckan_results = $options['ckan_results'];
+$options = get_option('data_articles');
+$data_results = $options['data_results'];
 
 require ('widgets-fields.php');
 
 }
 }
 
-add_action( 'widgets_init', 'ckan_articles_register_widgets' );
+add_action( 'widgets_init', 'data_articles_register_widgets' );
 
 /**
 * Register the new widget.
 *
 * @see 'widgets_init'
 */
-function ckan_articles_register_widgets() {
-register_widget( 'Ckan_Articles_Widget' );
+function data_articles_register_widgets() {
+register_widget( 'data_Articles_Widget' );
 }
