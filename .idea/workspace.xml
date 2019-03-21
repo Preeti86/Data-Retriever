@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c99c33d2-0a6f-4d54-90a5-77bbdb7ac79c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/creator-template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-options.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/extras/recipe-template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/delete.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/jquery.rateit.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/rateit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rateit/star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pg_dummy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/ckan_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/Data_api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/ckan_widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/Data_widgets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/front-end.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/front-end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/options-page-wrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/admin/settings_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/admin/settings_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,9 +207,9 @@
       <path value="$PROJECT_DIR$/slugify/vendor/cocur/slugify" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="565" />
-    <option name="y" value="126" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="219" />
+    <option name="y" value="118" />
     <option name="width" value="1177" />
     <option name="height" value="984" />
   </component>
@@ -314,17 +296,17 @@
       <workItem from="1552745806925" duration="1951000" />
       <workItem from="1552773320169" duration="632000" />
       <workItem from="1552899033493" duration="2078000" />
-      <workItem from="1553161009014" duration="3580000" />
+      <workItem from="1553161009014" duration="4412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109347000" />
+    <option name="totallyTimeSpent" value="110179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="219" y="118" width="1177" height="984" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16860144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26967287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
