@@ -44,7 +44,7 @@ add_action( 'admin_init', 'dataset_admin_init' );
 //add_action( 'wp_ajax_p_rate_dataset', 'p_rate_dataset');
 //add_action( 'wp_ajax_nopriv_p_rate_dataset', 'p_rate_dataset');
 add_action('admin_menu','datasets_settings_menu');
-add_action('register_widget','data_data_register_widgets');
+add_action('register_widget','data_register_widgets');
 add_action('wp_ajax_data_articles_refresh_results', 'data_articles_refresh_results');
 add_action('wp_head', 'data_articles_enable_front_ajax');
 add_action('admin_head', 'data_articles_backend_styles');
