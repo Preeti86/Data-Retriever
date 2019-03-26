@@ -19,7 +19,7 @@
                             <div class="handlediv" title="Click to toggle"><br></div>
                             <!-- Toggle -->
 
-                            <h2 class="hndle"><span>Lets Get started</span>
+                            <h2 class="handle"><span>Lets Get started</span>
                             </h2>
 
                             <div class="inside">
@@ -54,7 +54,7 @@
                             <div class="handlediv" title="Click to toggle"><br></div>
                             <!-- Toggle -->
 
-                            <h2 class="hndle"><span>Lets Get started</span>
+                            <h2 class="handle"><span>Lets Get started</span>
                             </h2>
 
                             <div class="inside">
@@ -68,7 +68,7 @@
                                                 <?php if (count($data_results->{'response'}->{'docs'}[$i]->{'multimedia'}) > 0): ?>
                                                     <li>
                                                         <img width="120px"
-                                                             src="<?php echo 'http://www.nytimes.com/' . $data_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'} ?>">
+                                                             src="<?php echo 'http://www.nytimes.com/' . $data_results->{'response'}->{'docs'}[0]->{'multimedia'}[1]->{'url'} ?>"/>
                                                     </li>
                                                 <?php endif; ?>
 
@@ -95,7 +95,7 @@
                         <div class="handlediv" title="Click to toggle"><br></div>
                         <!-- Toggle -->
 
-                        <h2 class="hndle"><span>JSON Feed</h2>
+                        <h2 class="handle"><span>JSON Feed</h2>
 
                         <div class="inside">
                             <p>
