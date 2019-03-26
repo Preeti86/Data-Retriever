@@ -1,4 +1,4 @@
-# data-retriever
+# Data-retriever
 
 WordPress plugin to intregrate third part API with WP
 
